@@ -17,7 +17,9 @@
 		B0D8F4F7A5FDA96C8336E26F9B87A59D /* KHProgressDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6193A741A48CD6C231CAC39ABF787F82 /* KHProgressDialog-dummy.m */; };
 		B2C410B599D849A99C2E20DBA2DAE71C /* Pods-KHProgressDialog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 028C93108B3ED477EECD16E9A51415B1 /* Pods-KHProgressDialog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF8699997CC604AAC977DDEC42DB513E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A897A151014FDBDDD80EBD6C6350D37 /* ReplaceMe.swift */; };
-		E5F21C811E5C3BC400FC8181 /* KHProgressTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F21C801E5C3BC400FC8181 /* KHProgressTest.swift */; };
+		E5F21C811E5C3BC400FC8181 /* MKKHGAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F21C801E5C3BC400FC8181 /* MKKHGAlert.swift */; };
+		E5F21CA61E5CA57D00FC8181 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = E5F21CA31E5CA57D00FC8181 /* .gitkeep */; };
+		E5F21CA81E5CA57D00FC8181 /* ic_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = E5F21CA51E5CA57D00FC8181 /* ic_selected.png */; };
 		E7E14ECA02669440458919EC43F428B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,7 +81,9 @@
 		D7AB2DD27AA07052BFC695A9C1B626D9 /* Pods-KHProgressDialog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KHProgressDialog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DCE9F13B7FB7CD04309AA4B0094F0349 /* KHProgressDialog.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KHProgressDialog.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB44D5812BBF2D5C462E0F515423708 /* Pods-KHProgressDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KHProgressDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E5F21C801E5C3BC400FC8181 /* KHProgressTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHProgressTest.swift; sourceTree = "<group>"; };
+		E5F21C801E5C3BC400FC8181 /* MKKHGAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKKHGAlert.swift; sourceTree = "<group>"; };
+		E5F21CA31E5CA57D00FC8181 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		E5F21CA51E5CA57D00FC8181 /* ic_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_selected.png; sourceTree = "<group>"; };
 		EBDC4A9EC822B04727D2889EE1056E1D /* KHProgressDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KHProgressDialog.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,6 +172,7 @@
 		541BC87352B9626159A59347175A97F4 /* KHProgressDialog */ = {
 			isa = PBXGroup;
 			children = (
+				E5F21CA21E5CA57D00FC8181 /* Assets */,
 				7C5B73682E870E671F2A510C58FE3647 /* Classes */,
 			);
 			path = KHProgressDialog;
@@ -194,7 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				0A897A151014FDBDDD80EBD6C6350D37 /* ReplaceMe.swift */,
-				E5F21C801E5C3BC400FC8181 /* KHProgressTest.swift */,
+				E5F21C801E5C3BC400FC8181 /* MKKHGAlert.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -249,6 +254,15 @@
 			);
 			name = "Pods-KHProgressDialog_Example";
 			path = "Target Support Files/Pods-KHProgressDialog_Example";
+			sourceTree = "<group>";
+		};
+		E5F21CA21E5CA57D00FC8181 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E5F21CA31E5CA57D00FC8181 /* .gitkeep */,
+				E5F21CA51E5CA57D00FC8181 /* ic_selected.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,6 +409,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B95F81B29CD57AC745A1B85C8C146AC /* KHProgressDialog.bundle in Resources */,
+				E5F21CA81E5CA57D00FC8181 /* ic_selected.png in Resources */,
+				E5F21CA61E5CA57D00FC8181 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5F21C811E5C3BC400FC8181 /* KHProgressTest.swift in Sources */,
+				E5F21C811E5C3BC400FC8181 /* MKKHGAlert.swift in Sources */,
 				B0D8F4F7A5FDA96C8336E26F9B87A59D /* KHProgressDialog-dummy.m in Sources */,
 				DF8699997CC604AAC977DDEC42DB513E /* ReplaceMe.swift in Sources */,
 			);
