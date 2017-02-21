@@ -9,10 +9,10 @@
 Pod::Spec.new do |s|
   s.name             = 'KHProgressDialog'
   s.version          = '0.1.0'
-  s.summary          = 'The awesome progress dialog that makes your task easier.'
+  s.summary          = 'initial version.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: The awesome progress dialog that makes your task easier.
                        DESC
 
   s.homepage         = 'https://github.com/MKHGLab/KHProgressDialog'
