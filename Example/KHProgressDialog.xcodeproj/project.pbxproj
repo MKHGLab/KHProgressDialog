@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		082FD1F94DF88D6273111FDE /* Pods_KHProgressDialog_Example_KHProgressDialog_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE31C9E6A87AF8E213338A40 /* Pods_KHProgressDialog_Example_KHProgressDialog_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,7 +31,7 @@
 /* Begin PBXFileReference section */
 		1BCFBCBDA148FB7E41262982 /* Pods_KHProgressDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KHProgressDialog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F40A130A6AD490AD7ADDDDE /* Pods-KHProgressDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHProgressDialog_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KHProgressDialog_Example/Pods-KHProgressDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4257BD72E4CA85F65BAFB0CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4257BD72E4CA85F65BAFB0CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5668C363E687A41857894D49 /* Pods-KHProgressDialog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHProgressDialog_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KHProgressDialog_Tests/Pods-KHProgressDialog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KHProgressDialog_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KHProgressDialog_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,11 +43,14 @@
 		607FACE51AFB9204008FA782 /* KHProgressDialog_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KHProgressDialog_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7A49D759DF45876DFCC55D25 /* KHProgressDialog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KHProgressDialog.podspec; path = ../KHProgressDialog.podspec; sourceTree = "<group>"; };
+		7A49D759DF45876DFCC55D25 /* KHProgressDialog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KHProgressDialog.podspec; path = ../KHProgressDialog.podspec; sourceTree = "<group>"; };
 		A9D030F683ECC63301887910 /* Pods_KHProgressDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KHProgressDialog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA440D9FB7A6B970F04EDEC /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHProgressDialog_Example-KHProgressDialog_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KHProgressDialog_Example-KHProgressDialog_Tests/Pods-KHProgressDialog_Example-KHProgressDialog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE31C9E6A87AF8E213338A40 /* Pods_KHProgressDialog_Example_KHProgressDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KHProgressDialog_Example_KHProgressDialog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C445A07B4250D4C9C8590674 /* Pods-KHProgressDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHProgressDialog_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KHProgressDialog_Example/Pods-KHProgressDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DC31DAC21564BAC8173722B3 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHProgressDialog_Example-KHProgressDialog_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KHProgressDialog_Example-KHProgressDialog_Tests/Pods-KHProgressDialog_Example-KHProgressDialog_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F3567EA0B2E3E4D2F3FED052 /* Pods-KHProgressDialog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHProgressDialog_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KHProgressDialog_Tests/Pods-KHProgressDialog_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FC9DC193F9DF55AD1A684B60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FC9DC193F9DF55AD1A684B60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87E1DA8CD2F3D9D21227AA6B /* Pods_KHProgressDialog_Tests.framework in Frameworks */,
+				082FD1F94DF88D6273111FDE /* Pods_KHProgressDialog_Example_KHProgressDialog_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +149,7 @@
 			children = (
 				A9D030F683ECC63301887910 /* Pods_KHProgressDialog_Example.framework */,
 				1BCFBCBDA148FB7E41262982 /* Pods_KHProgressDialog_Tests.framework */,
+				AE31C9E6A87AF8E213338A40 /* Pods_KHProgressDialog_Example_KHProgressDialog_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,6 +161,8 @@
 				1F40A130A6AD490AD7ADDDDE /* Pods-KHProgressDialog_Example.release.xcconfig */,
 				5668C363E687A41857894D49 /* Pods-KHProgressDialog_Tests.debug.xcconfig */,
 				F3567EA0B2E3E4D2F3FED052 /* Pods-KHProgressDialog_Tests.release.xcconfig */,
+				AAA440D9FB7A6B970F04EDEC /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests.debug.xcconfig */,
+				DC31DAC21564BAC8173722B3 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -215,9 +223,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -289,7 +299,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KHProgressDialog_Tests/Pods-KHProgressDialog_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KHProgressDialog_Example-KHProgressDialog_Tests/Pods-KHProgressDialog_Example-KHProgressDialog_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8E01AFAAC7EF26E98DFA49A7 /* [CP] Embed Pods Frameworks */ = {
@@ -304,7 +314,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KHProgressDialog_Tests/Pods-KHProgressDialog_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KHProgressDialog_Example-KHProgressDialog_Tests/Pods-KHProgressDialog_Example-KHProgressDialog_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A450961F5C572694F677229A /* [CP] Check Pods Manifest.lock */ = {
@@ -494,6 +504,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -507,12 +518,13 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5668C363E687A41857894D49 /* Pods-KHProgressDialog_Tests.debug.xcconfig */;
+			baseConfigurationReference = AAA440D9FB7A6B970F04EDEC /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -526,12 +538,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3567EA0B2E3E4D2F3FED052 /* Pods-KHProgressDialog_Tests.release.xcconfig */;
+			baseConfigurationReference = DC31DAC21564BAC8173722B3 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -541,6 +554,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

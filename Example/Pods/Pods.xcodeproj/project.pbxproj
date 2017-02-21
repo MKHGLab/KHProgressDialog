@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E422B0B04BFD13C11CF998A58020871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		21D0A8C4541E6DB1D3ABF48DD877454B /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 804262BCD6F540DE998D1A1F42AAAA13 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		463466D68E0AA736C844BF2537547AC9 /* KHProgressDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04DC9B40D4AB29A48045AAE538D0FF3D /* KHProgressDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E58348DE3A39B75DEF3CB4D5083A7C5 /* Pods-KHProgressDialog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C931DA4FC3B10546D51D70874CFA9C5 /* Pods-KHProgressDialog_Example-dummy.m */; };
+		72D9C10679D66640D422FE47D1889F32 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FBE55BBD2901E8AB184B4618CACF59 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests-dummy.m */; };
+		7B95F81B29CD57AC745A1B85C8C146AC /* KHProgressDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DCE9F13B7FB7CD04309AA4B0094F0349 /* KHProgressDialog.bundle */; };
+		9CD5BBBBAEE531A78FE84724D959D6B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B0D8F4F7A5FDA96C8336E26F9B87A59D /* KHProgressDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6193A741A48CD6C231CAC39ABF787F82 /* KHProgressDialog-dummy.m */; };
+		B2C410B599D849A99C2E20DBA2DAE71C /* Pods-KHProgressDialog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 028C93108B3ED477EECD16E9A51415B1 /* Pods-KHProgressDialog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF8699997CC604AAC977DDEC42DB513E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A897A151014FDBDDD80EBD6C6350D37 /* ReplaceMe.swift */; };
+		E5F21C811E5C3BC400FC8181 /* KHProgressTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F21C801E5C3BC400FC8181 /* KHProgressTest.swift */; };
+		E7E14ECA02669440458919EC43F428B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38625399012B3F844427D0900F7DF28A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC4511DCD32715A5081CF28962639C55;
+			remoteInfo = KHProgressDialog;
+		};
+		44D850C54E31BC58A8C4F07D8F37FED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC4511DCD32715A5081CF28962639C55;
+			remoteInfo = KHProgressDialog;
+		};
+		4C67A35FAB7137038BF4A5850FAAF86A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0046463306570D32036E6FD525E78FF4;
+			remoteInfo = "KHProgressDialog-KHProgressDialog";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028C93108B3ED477EECD16E9A51415B1 /* Pods-KHProgressDialog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KHProgressDialog_Example-umbrella.h"; sourceTree = "<group>"; };
+		04AEBDE9736F148AEC96C352B1213EBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DC9B40D4AB29A48045AAE538D0FF3D /* KHProgressDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KHProgressDialog-umbrella.h"; sourceTree = "<group>"; };
+		0A897A151014FDBDDD80EBD6C6350D37 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		1A1387E5DCF94F1F570D1E3C783A506D /* ResourceBundle-KHProgressDialog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-KHProgressDialog-Info.plist"; sourceTree = "<group>"; };
+		4162EB02653EB722053FB944D54D105C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FBE55BBD2901E8AB184B4618CACF59 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KHProgressDialog_Example-KHProgressDialog_Tests-dummy.m"; sourceTree = "<group>"; };
+		43FB650E836C88BD11B6D286D4B5A4A4 /* Pods-KHProgressDialog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KHProgressDialog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4896AE0A3BDBE229BAFA6F796737EE70 /* KHProgressDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KHProgressDialog.xcconfig; sourceTree = "<group>"; };
+		4FA86E699FD626E60C23249D6A7CE9AB /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KHProgressDialog_Example-KHProgressDialog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		55F4126C374B4085F03C2F7F2E78A18E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ACEB6B3AC22FCAB3DF5F098F34D36C8 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KHProgressDialog_Example-KHProgressDialog_Tests.modulemap"; sourceTree = "<group>"; };
+		5B68F77A79840672547A4DBF4A61B1F5 /* Pods_KHProgressDialog_Example_KHProgressDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KHProgressDialog_Example_KHProgressDialog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6193A741A48CD6C231CAC39ABF787F82 /* KHProgressDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KHProgressDialog-dummy.m"; sourceTree = "<group>"; };
+		65BAE20281B6F5C79DBFEC93FE2EC906 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KHProgressDialog_Example-KHProgressDialog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		69A548E58A3C5AA159D6934908D692D8 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KHProgressDialog_Example-KHProgressDialog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D3AA3B298AD3755F4775C5AF476F137 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KHProgressDialog_Example-KHProgressDialog_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7D6F27C658DB097FF40CF4F2E9A764D7 /* Pods_KHProgressDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KHProgressDialog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		804262BCD6F540DE998D1A1F42AAAA13 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KHProgressDialog_Example-KHProgressDialog_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8927D81759AE027C8677EB737276B79D /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KHProgressDialog_Example-KHProgressDialog_Tests-resources.sh"; sourceTree = "<group>"; };
+		8C931DA4FC3B10546D51D70874CFA9C5 /* Pods-KHProgressDialog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KHProgressDialog_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B89359C44344D7378E57F025DFB680 /* Pods-KHProgressDialog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KHProgressDialog_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9DA0D6AF462DE477E403F19F51C619DE /* Pods-KHProgressDialog_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KHProgressDialog_Example-resources.sh"; sourceTree = "<group>"; };
+		A5056D2389090F618521DD7F602091DA /* Pods-KHProgressDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KHProgressDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A72CFC8B43E5F244B2FE939F9DD0D30D /* Pods-KHProgressDialog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KHProgressDialog_Example.modulemap"; sourceTree = "<group>"; };
+		C62D07C6F9FD1DB7E974558CB442B410 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KHProgressDialog_Example-KHProgressDialog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF0869245FC246F3BF61A25496A3E2B9 /* KHProgressDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KHProgressDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B46BD36A6434AE78143A6CE0B20AEB /* KHProgressDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KHProgressDialog-prefix.pch"; sourceTree = "<group>"; };
+		D7AB2DD27AA07052BFC695A9C1B626D9 /* Pods-KHProgressDialog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KHProgressDialog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DCE9F13B7FB7CD04309AA4B0094F0349 /* KHProgressDialog.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KHProgressDialog.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB44D5812BBF2D5C462E0F515423708 /* Pods-KHProgressDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KHProgressDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E5F21C801E5C3BC400FC8181 /* KHProgressTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KHProgressTest.swift; sourceTree = "<group>"; };
+		EBDC4A9EC822B04727D2889EE1056E1D /* KHProgressDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KHProgressDialog.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19D45556E251E813386501BCE079F015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C648219190BB71744C454A9601B1199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E14ECA02669440458919EC43F428B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505E69048CF3AD51EEA8DF3964BE8F8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E422B0B04BFD13C11CF998A58020871 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7263F9EBFC1F212715732AAC841BEFC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD5BBBBAEE531A78FE84724D959D6B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040CD004A4EDEC99B62B4E348FD3C1F3 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				55F4126C374B4085F03C2F7F2E78A18E /* Info.plist */,
+				5ACEB6B3AC22FCAB3DF5F098F34D36C8 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests.modulemap */,
+				65BAE20281B6F5C79DBFEC93FE2EC906 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests-acknowledgements.markdown */,
+				C62D07C6F9FD1DB7E974558CB442B410 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests-acknowledgements.plist */,
+				42FBE55BBD2901E8AB184B4618CACF59 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests-dummy.m */,
+				7D3AA3B298AD3755F4775C5AF476F137 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests-frameworks.sh */,
+				8927D81759AE027C8677EB737276B79D /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests-resources.sh */,
+				804262BCD6F540DE998D1A1F42AAAA13 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests-umbrella.h */,
+				69A548E58A3C5AA159D6934908D692D8 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests.debug.xcconfig */,
+				4FA86E699FD626E60C23249D6A7CE9AB /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests.release.xcconfig */,
+			);
+			name = "Pods-KHProgressDialog_Example-KHProgressDialog_Tests";
+			path = "Target Support Files/Pods-KHProgressDialog_Example-KHProgressDialog_Tests";
+			sourceTree = "<group>";
+		};
+		08A36B1813E06043023932D972F106C1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26B4B5781008456DC8711BE32C9128CA /* KHProgressDialog */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		26B4B5781008456DC8711BE32C9128CA /* KHProgressDialog */ = {
+			isa = PBXGroup;
+			children = (
+				541BC87352B9626159A59347175A97F4 /* KHProgressDialog */,
+				B27A73CF9E41B5AFEAA5A318FD2CD2D0 /* Support Files */,
+			);
+			name = KHProgressDialog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		48BB4AF3E18184D36C23777A97B36F81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE9F13B7FB7CD04309AA4B0094F0349 /* KHProgressDialog.bundle */,
+				CF0869245FC246F3BF61A25496A3E2B9 /* KHProgressDialog.framework */,
+				7D6F27C658DB097FF40CF4F2E9A764D7 /* Pods_KHProgressDialog_Example.framework */,
+				5B68F77A79840672547A4DBF4A61B1F5 /* Pods_KHProgressDialog_Example_KHProgressDialog_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		541BC87352B9626159A59347175A97F4 /* KHProgressDialog */ = {
+			isa = PBXGroup;
+			children = (
+				7C5B73682E870E671F2A510C58FE3647 /* Classes */,
+			);
+			path = KHProgressDialog;
+			sourceTree = "<group>";
+		};
+		6122B0B125CA67A1F4A08AAA29FAD491 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D041A2F1F1111649FAA32100BFADDE88 /* Pods-KHProgressDialog_Example */,
+				040CD004A4EDEC99B62B4E348FD3C1F3 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C5B73682E870E671F2A510C58FE3647 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A897A151014FDBDDD80EBD6C6350D37 /* ReplaceMe.swift */,
+				E5F21C801E5C3BC400FC8181 /* KHProgressTest.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				08A36B1813E06043023932D972F106C1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				48BB4AF3E18184D36C23777A97B36F81 /* Products */,
+				6122B0B125CA67A1F4A08AAA29FAD491 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B27A73CF9E41B5AFEAA5A318FD2CD2D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04AEBDE9736F148AEC96C352B1213EBA /* Info.plist */,
+				EBDC4A9EC822B04727D2889EE1056E1D /* KHProgressDialog.modulemap */,
+				4896AE0A3BDBE229BAFA6F796737EE70 /* KHProgressDialog.xcconfig */,
+				6193A741A48CD6C231CAC39ABF787F82 /* KHProgressDialog-dummy.m */,
+				D3B46BD36A6434AE78143A6CE0B20AEB /* KHProgressDialog-prefix.pch */,
+				04DC9B40D4AB29A48045AAE538D0FF3D /* KHProgressDialog-umbrella.h */,
+				1A1387E5DCF94F1F570D1E3C783A506D /* ResourceBundle-KHProgressDialog-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KHProgressDialog";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D041A2F1F1111649FAA32100BFADDE88 /* Pods-KHProgressDialog_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4162EB02653EB722053FB944D54D105C /* Info.plist */,
+				A72CFC8B43E5F244B2FE939F9DD0D30D /* Pods-KHProgressDialog_Example.modulemap */,
+				43FB650E836C88BD11B6D286D4B5A4A4 /* Pods-KHProgressDialog_Example-acknowledgements.markdown */,
+				D7AB2DD27AA07052BFC695A9C1B626D9 /* Pods-KHProgressDialog_Example-acknowledgements.plist */,
+				8C931DA4FC3B10546D51D70874CFA9C5 /* Pods-KHProgressDialog_Example-dummy.m */,
+				94B89359C44344D7378E57F025DFB680 /* Pods-KHProgressDialog_Example-frameworks.sh */,
+				9DA0D6AF462DE477E403F19F51C619DE /* Pods-KHProgressDialog_Example-resources.sh */,
+				028C93108B3ED477EECD16E9A51415B1 /* Pods-KHProgressDialog_Example-umbrella.h */,
+				DFB44D5812BBF2D5C462E0F515423708 /* Pods-KHProgressDialog_Example.debug.xcconfig */,
+				A5056D2389090F618521DD7F602091DA /* Pods-KHProgressDialog_Example.release.xcconfig */,
+			);
+			name = "Pods-KHProgressDialog_Example";
+			path = "Target Support Files/Pods-KHProgressDialog_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1ACE2716B97849780387E76650F05D10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C410B599D849A99C2E20DBA2DAE71C /* Pods-KHProgressDialog_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7493318637264FB114CF03A603F200 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463466D68E0AA736C844BF2537547AC9 /* KHProgressDialog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D019C66A45A2856FFD4D203A646E5DA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D0A8C4541E6DB1D3ABF48DD877454B /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0046463306570D32036E6FD525E78FF4 /* KHProgressDialog-KHProgressDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD42D24EF3066C289CF3DBC56749B433 /* Build configuration list for PBXNativeTarget "KHProgressDialog-KHProgressDialog" */;
+			buildPhases = (
+				AD6531B63D860CCC28A90153BB948D16 /* Sources */,
+				19D45556E251E813386501BCE079F015 /* Frameworks */,
+				B39D013876E7BEFD32535D6201520765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KHProgressDialog-KHProgressDialog";
+			productName = "KHProgressDialog-KHProgressDialog";
+			productReference = DCE9F13B7FB7CD04309AA4B0094F0349 /* KHProgressDialog.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1C92E873F82238D9A2138603E92D285E /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6804D4E03265F48363CE70802685A63C /* Build configuration list for PBXNativeTarget "Pods-KHProgressDialog_Example-KHProgressDialog_Tests" */;
+			buildPhases = (
+				0CA1967601DCAB7E91A735D467071524 /* Sources */,
+				7263F9EBFC1F212715732AAC841BEFC2 /* Frameworks */,
+				D019C66A45A2856FFD4D203A646E5DA4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08DFD0915FC6DDC1FB35A7FAA9374367 /* PBXTargetDependency */,
+			);
+			name = "Pods-KHProgressDialog_Example-KHProgressDialog_Tests";
+			productName = "Pods-KHProgressDialog_Example-KHProgressDialog_Tests";
+			productReference = 5B68F77A79840672547A4DBF4A61B1F5 /* Pods_KHProgressDialog_Example_KHProgressDialog_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C32E463E4C0542A0C0CC98A3A98ED4BC /* Pods-KHProgressDialog_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F55D16DC573FBB89A5AE7F5C9216873 /* Build configuration list for PBXNativeTarget "Pods-KHProgressDialog_Example" */;
+			buildPhases = (
+				5603A0478D13656BADDB308DA5E9DA9B /* Sources */,
+				505E69048CF3AD51EEA8DF3964BE8F8A /* Frameworks */,
+				1ACE2716B97849780387E76650F05D10 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9F61F9ACED39BA643AC129C321E91AF /* PBXTargetDependency */,
+			);
+			name = "Pods-KHProgressDialog_Example";
+			productName = "Pods-KHProgressDialog_Example";
+			productReference = 7D6F27C658DB097FF40CF4F2E9A764D7 /* Pods_KHProgressDialog_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC4511DCD32715A5081CF28962639C55 /* KHProgressDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEAC75E60A2B704F49BD33EEFD6E2A66 /* Build configuration list for PBXNativeTarget "KHProgressDialog" */;
+			buildPhases = (
+				1516C9B25F78D645D5275D95F2228B61 /* Sources */,
+				1C648219190BB71744C454A9601B1199 /* Frameworks */,
+				FA57813164631A24D67DF5F7E221D011 /* Resources */,
+				BC7493318637264FB114CF03A603F200 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD30CE11A77B556BBBACED1B8CDDAA2F /* PBXTargetDependency */,
+			);
+			name = KHProgressDialog;
+			productName = KHProgressDialog;
+			productReference = CF0869245FC246F3BF61A25496A3E2B9 /* KHProgressDialog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 48BB4AF3E18184D36C23777A97B36F81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC4511DCD32715A5081CF28962639C55 /* KHProgressDialog */,
+				0046463306570D32036E6FD525E78FF4 /* KHProgressDialog-KHProgressDialog */,
+				C32E463E4C0542A0C0CC98A3A98ED4BC /* Pods-KHProgressDialog_Example */,
+				1C92E873F82238D9A2138603E92D285E /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B39D013876E7BEFD32535D6201520765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA57813164631A24D67DF5F7E221D011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B95F81B29CD57AC745A1B85C8C146AC /* KHProgressDialog.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CA1967601DCAB7E91A735D467071524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D9C10679D66640D422FE47D1889F32 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1516C9B25F78D645D5275D95F2228B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F21C811E5C3BC400FC8181 /* KHProgressTest.swift in Sources */,
+				B0D8F4F7A5FDA96C8336E26F9B87A59D /* KHProgressDialog-dummy.m in Sources */,
+				DF8699997CC604AAC977DDEC42DB513E /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5603A0478D13656BADDB308DA5E9DA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E58348DE3A39B75DEF3CB4D5083A7C5 /* Pods-KHProgressDialog_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6531B63D860CCC28A90153BB948D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08DFD0915FC6DDC1FB35A7FAA9374367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KHProgressDialog;
+			target = CC4511DCD32715A5081CF28962639C55 /* KHProgressDialog */;
+			targetProxy = 38625399012B3F844427D0900F7DF28A /* PBXContainerItemProxy */;
+		};
+		C9F61F9ACED39BA643AC129C321E91AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KHProgressDialog;
+			target = CC4511DCD32715A5081CF28962639C55 /* KHProgressDialog */;
+			targetProxy = 44D850C54E31BC58A8C4F07D8F37FED0 /* PBXContainerItemProxy */;
+		};
+		FD30CE11A77B556BBBACED1B8CDDAA2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "KHProgressDialog-KHProgressDialog";
+			target = 0046463306570D32036E6FD525E78FF4 /* KHProgressDialog-KHProgressDialog */;
+			targetProxy = 4C67A35FAB7137038BF4A5850FAAF86A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		44C8734E99F35FC8540DB4EEB76A9329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA86E699FD626E60C23249D6A7CE9AB /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KHProgressDialog_Example-KHProgressDialog_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KHProgressDialog_Example-KHProgressDialog_Tests/Pods-KHProgressDialog_Example-KHProgressDialog_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KHProgressDialog_Example_KHProgressDialog_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4571F5229822B83CDB58AC61125D025B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5056D2389090F618521DD7F602091DA /* Pods-KHProgressDialog_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KHProgressDialog_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KHProgressDialog_Example/Pods-KHProgressDialog_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KHProgressDialog_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FA2B0DA91D3A10328A3EF647DB71E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB44D5812BBF2D5C462E0F515423708 /* Pods-KHProgressDialog_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KHProgressDialog_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KHProgressDialog_Example/Pods-KHProgressDialog_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KHProgressDialog_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70EEDC20AE3366EBA07182B05FEB0C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4896AE0A3BDBE229BAFA6F796737EE70 /* KHProgressDialog.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KHProgressDialog";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/KHProgressDialog/ResourceBundle-KHProgressDialog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = KHProgressDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A9891E28252050836436F28E5AD3AA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4896AE0A3BDBE229BAFA6F796737EE70 /* KHProgressDialog.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KHProgressDialog";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/KHProgressDialog/ResourceBundle-KHProgressDialog-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = KHProgressDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BF72532C3D8287C4C76DBCB0826C296E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4896AE0A3BDBE229BAFA6F796737EE70 /* KHProgressDialog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KHProgressDialog/KHProgressDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KHProgressDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KHProgressDialog/KHProgressDialog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KHProgressDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1DC77F9CA92C4699333C902BB8E348C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4896AE0A3BDBE229BAFA6F796737EE70 /* KHProgressDialog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KHProgressDialog/KHProgressDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KHProgressDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KHProgressDialog/KHProgressDialog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KHProgressDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3EA47DA9237D8CBC2BCD1CF4BE9536F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69A548E58A3C5AA159D6934908D692D8 /* Pods-KHProgressDialog_Example-KHProgressDialog_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KHProgressDialog_Example-KHProgressDialog_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KHProgressDialog_Example-KHProgressDialog_Tests/Pods-KHProgressDialog_Example-KHProgressDialog_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KHProgressDialog_Example_KHProgressDialog_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F55D16DC573FBB89A5AE7F5C9216873 /* Build configuration list for PBXNativeTarget "Pods-KHProgressDialog_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FA2B0DA91D3A10328A3EF647DB71E13 /* Debug */,
+				4571F5229822B83CDB58AC61125D025B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6804D4E03265F48363CE70802685A63C /* Build configuration list for PBXNativeTarget "Pods-KHProgressDialog_Example-KHProgressDialog_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3EA47DA9237D8CBC2BCD1CF4BE9536F /* Debug */,
+				44C8734E99F35FC8540DB4EEB76A9329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD42D24EF3066C289CF3DBC56749B433 /* Build configuration list for PBXNativeTarget "KHProgressDialog-KHProgressDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9891E28252050836436F28E5AD3AA5B /* Debug */,
+				70EEDC20AE3366EBA07182B05FEB0C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEAC75E60A2B704F49BD33EEFD6E2A66 /* Build configuration list for PBXNativeTarget "KHProgressDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1DC77F9CA92C4699333C902BB8E348C /* Debug */,
+				BF72532C3D8287C4C76DBCB0826C296E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

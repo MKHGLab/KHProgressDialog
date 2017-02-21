@@ -1,0 +1,6 @@
+framework module Pods_KHProgressDialog_Example_KHProgressDialog_Tests {
+  umbrella header "Pods-KHProgressDialog_Example-KHProgressDialog_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

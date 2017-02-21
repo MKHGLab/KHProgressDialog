@@ -1,0 +1,6 @@
+framework module KHProgressDialog {
+  umbrella header "KHProgressDialog-umbrella.h"
+
+  export *
+  module * { export * }
+}

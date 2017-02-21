@@ -4,8 +4,6 @@ target 'KHProgressDialog_Example' do
   pod 'KHProgressDialog', :path => '../'
 
   target 'KHProgressDialog_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
+    pod 'KHProgressDialog', :path => '../'
   end
 end

@@ -1,0 +1,16 @@
+PODS:
+  - KHProgressDialog (0.1.0)
+
+DEPENDENCIES:
+  - KHProgressDialog (from `../`)
+
+EXTERNAL SOURCES:
+  KHProgressDialog:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KHProgressDialog: d03638d781f4b1ffbe7c4ebcddb68a72764455da
+
+PODFILE CHECKSUM: 839f746ed72634d29f005ac0cf44ae4748a55c95
+
+COCOAPODS: 1.1.1

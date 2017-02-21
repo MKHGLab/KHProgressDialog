@@ -1,0 +1,27 @@
+{
+  "name": "KHProgressDialog",
+  "version": "0.1.0",
+  "summary": "The awesome progress dialog that makes your task easier.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MKHGLab/KHProgressDialog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MKHGLab": "mkhglab@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/MKHGLab/KHProgressDialog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KHProgressDialog/Classes/**/*",
+  "resource_bundles": {
+    "KHProgressDialog": [
+      "KHProgressDialog/Assets/*.png"
+    ]
+  }
+}
