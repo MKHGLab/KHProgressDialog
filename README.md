@@ -11,6 +11,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Suitable for `Xcode 8.2.1` (`swift 3.0.2`)
+
 ## Installation
 
 KHProgressDialog is available through [CocoaPods](http://cocoapods.org). To install
