@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KHProgressDialog'
-  s.version          = '0.1.0'
-  s.summary          = 'initial version.'
+  s.version          = '0.1.1'
+  s.summary          = 'Loading dialog added.'
 
   s.description      = <<-DESC
 TODO: The awesome progress dialog that makes your task easier.
