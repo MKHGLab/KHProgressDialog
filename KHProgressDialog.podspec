@@ -26,9 +26,9 @@ TODO: The awesome progress dialog that makes your task easier.
 
   s.source_files = 'KHProgressDialog/Classes/**/*'
   
-  s.resource_bundles = {
-      'KHProgressDialog' => ['KHProgressDialog/Assets/*.png']
-  }
+# s.resource_bundles = {
+#     'KHProgressDialog' => ['KHProgressDialog/Assets/*.png']
+#}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
