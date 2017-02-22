@@ -24,6 +24,8 @@ pod "KHProgressDialog"
 
 ## Usage
 
+`import KHProgressDialog` to your project. And then follow the example-
+
 ```
 func myMethod() {
     let showAlert = MKKHGAlert()
