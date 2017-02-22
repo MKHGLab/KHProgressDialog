@@ -22,6 +22,20 @@ it, simply add the following line to your Podfile:
 pod "KHProgressDialog"
 ```
 
+## Usage
+
+```
+func myMethod() {
+    let showAlert = MKKHGAlert()
+
+    //Show The Alert Dialog
+    showAlert.showLoadingAlert(view: self.view, title: "Loading...")
+
+    //Hide The Alert Dialog
+    testAlert.hideLoadingAlert(done: "Done")
+}
+```
+
 ## Author
 
 MKHGLab, mkhglab@gmail.com
